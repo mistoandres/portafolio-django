@@ -1,0 +1,15 @@
+{% load static %}
+<div id="show_menuitems" class="my-menu">
+    <div class="menu-box">
+        <span>
+            <i onclick="hide_menu()" class="flaticon-cancel"></i>
+        </span>
+        <ul>
+            <li><a onclick="hide_menu()" href="{% url 'home' %}#home">Inicio</a></li>
+            <li><a onclick="hide_menu()" href="{% url 'home' %}#about">Acerca de mí</a></li>
+            <li><a onclick="hide_menu()" href="{% url 'home' %}#resume">Resumen</a></li>
+            <li><a onclick="hide_menu()" href="{% url 'home' %}#portfolio">Projectos</a></li>
+            <li><a onclick="hide_menu()" href="{% url 'home' %}#contact">Contacto</a></li>
+        </ul>
+    </div>
+</div>
